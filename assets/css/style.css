@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background: url("../img/bg.jpeg") center/cover;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  position: relative;
+}
+
+.left {
+  width: 45%;
+  float: left;
+}
+
+.right {
+  width: 45%;
+  float: right;
+}
+
+.basic-input, select, input[type=text],
+input[type=date],
+input[type=email],
+input[type=password] {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px 0 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+input[type=text],
+input[type=date],
+input[type=email],
+input[type=password] {
+  width: calc(100% - 22px);
+}
+
+select {
+  width: 100%;
+}
+
+input[type=submit] {
+  border: 1px solid #820430;
+  background-color: #820430;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  cursor: pointer;
+  margin: 30px;
+  transition: 0.8s;
+  transition-property: background-color;
+  position: relative;
+  right: 200px;
+}
+
+.service {
+  margin-top: 30px;
+}
+.service label {
+  cursor: pointer;
+}
+
+.service1 {
+  margin-top: 15px;
+}
+.service1 label {
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #500000;
+}
+
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
